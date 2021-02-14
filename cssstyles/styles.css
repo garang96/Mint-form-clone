@@ -3,3 +3,146 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgba(169, 169, 169, 0.164);
+}
+
+.nav-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.existing-acc {
+  font-size: 14px;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.nav-content a:hover {
+  text-decoration: underline;
+}
+
+#nav-btn {
+  width: 100px;
+  height: 37px;
+  background-color: rgba(15, 66, 160, 0.87);
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  border: 1px solid rgba(128, 128, 128, 0.692);
+  background-color: white;
+  border-radius: 3px;
+}
+
+h4 {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+.one-account a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.one-account a:hover {
+  text-decoration: underline;
+}
+
+.one-account {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.personal-info {
+  width: 350px;
+  height: 30px;
+  border-radius: 3px;
+  outline: none;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  margin-top: 10px;
+}
+
+.info-label {
+  margin-left: 6.5%;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+#submit {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgba(15, 66, 160, 0.87);
+  color: white;
+  margin: auto;
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.calls {
+  font-size: 12px;
+  margin-bottom: 40px;
+  margin-left: 1%;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 6.5%;
+}
+
+#phone {
+  margin-bottom: 5px;
+}
+
+#email {
+  margin-bottom: 40px;
+}
+
+.terms-and-conditions a{
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.terms-and-conditions a:hover {
+  text-decoration: underline;
+}
+
+.terms-and-conditions {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.404);
+  margin: 10px;
+}
+
+.form-foot {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.432);
+  background-color: rgba(169, 169, 169, 0.164);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+.form-foot a {
+  text-decoration: none;
+  color: cornflowerblue;
+}

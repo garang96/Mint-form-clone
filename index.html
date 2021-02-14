@@ -4,9 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cssstyles/styles.css">
   <title>Simple Form Clone</title>
 </head>
 <body>
+  <header>
+    <nav class="nav-content">
+      <div class="existing-acc">
+        <div>Already have an intuit account?</div>
+        <a href="#">I forgot my User ID or Password.</a>
+      </div>
+      <div class="sign-in-btn">
+        <button type="button" id="nav-btn">Sign In</button>
+      </div>
+    </nav>
+  </header>
+  <form action="" method="POST" class="form">
+    <h4>Create an Intuit account</h4>
+    <p class="one-account">One account for everything Intuit, including Mint. <a href="#">Learn more</a></p>
+    <label for="email" class="info-label">Email address</label>
+    <input type="email" class="personal-info" id="email" name="email-address">
+    <label for="phone" class="info-label">Phone (recommended)</label>
+    <input type="tel" class="personal-info" id="phone" name="phone">
+    <div class="calls">Standard call, messaging or data rates may apply.</div>
+    <label for="password" class="info-label">Password</label>
+    <input type="password" class="personal-info" id="password" name="password">
+    <input type="submit" id="submit" value="Create Account" name="submit">
+    <p class="terms-and-conditions"><span> By clicking Create Account, you agree to our</span><br>
+    <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement.</a></p>
+    <div class="form-foot"><p>Invisible reCAPTCHA by Google <a href="#"> Privacy Policy</a> and <a href="#"> Terms of Use.</a></p></div>
+
+  </form>
+ 
   
 </body>
 </html>
