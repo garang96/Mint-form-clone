@@ -35,8 +35,7 @@ Give a star if you like this project!
 ## Acknowledgements
 
 * Big up to the Odin Project that has provided a leaning platform.
-* inspiration
-* etc
+
 
 ## License
 
