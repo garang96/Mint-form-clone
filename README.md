@@ -2,7 +2,7 @@
 
 I cloned the sign up form from mint.com as directed by the Odin Project.
 
-![screenshot](./images/screencapture-127-0-0-1-5500-index-html-2021-02-15-07_52_03.png)
+![screenshot](./images/screencapture-127-0-0-1-5500-index-html-2021-02-15-08_38_08.png)
 
 This is a project of cloning a sign up form from mint.com. It's a beginner friendly project since it helps one practice on the basic html and css that one has learned,especially on form inputs. My best learning experience in this project was when working on the footer,both the form and the body footer. I figured out how postioning,margins and text align really work.
 

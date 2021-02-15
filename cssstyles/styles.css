@@ -48,22 +48,17 @@ body {
   cursor: pointer;
 }
 
-.main-links a {
-  text-decoration: none;
-  color: darkgrey;
-  margin-right: 10px;
-}
-
 .main-links {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  font-size: 20px;
   margin-top: 20px;
 }
 
-.turbotax {
-  display: flex;
+.turbotax,
+.mint,
+.quickbooks {
+  margin-right: 10px;
 }
 
 .fa-check-circle {
