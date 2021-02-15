@@ -35,6 +35,21 @@ body {
   cursor: pointer;
 }
 
+.main-logo {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 130px;
+  height: 40px;
+  margin: auto;
+  color: rgba(169, 169, 169, 0.274);
+  
+}
+
 .main-links a {
   text-decoration: none;
   color: darkgrey;
@@ -44,7 +59,14 @@ body {
 .main-links {
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.fa-check-circle {
+  font-size: 30px;
+  border-radius: 50%;
+  color: rgba(139, 0, 0, 0.589);
 }
 
 .form {
@@ -120,7 +142,7 @@ h4 {
   margin-bottom: 40px;
 }
 
-.terms-and-conditions a{
+.terms-and-conditions a {
   text-decoration: none;
   color: cornflowerblue;
 }
